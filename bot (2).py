@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.INFO)
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 if not BOT_TOKEN:
-    raise ValueError("Переменная окружения BOT_TOKEN не установлена!")
+    raise ValueError("8806712173:AAH7kznvYK03XuWO3DP1WxNmRbqVQwY44VY")
 
 # Инициализация бота и диспетчера
 bot = Bot(token=BOT_TOKEN)
