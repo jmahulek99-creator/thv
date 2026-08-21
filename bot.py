@@ -9,7 +9,7 @@ from aiogram.types import KeyboardButton, ReplyKeyboardMarkup
 logging.basicConfig(level=logging.INFO)
 
 # Получение токена из переменных окружения
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = "8806712173:AAH7kznvYK03XuWO3DP1WxNmRbqVQwY44VY"
 
 if not BOT_TOKEN:
     raise ValueError("8806712173:AAH7kznvYK03XuWO3DP1WxNmRbqVQwY44VY")
